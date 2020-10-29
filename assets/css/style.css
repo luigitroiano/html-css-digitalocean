@@ -1,0 +1,90 @@
+.container_75{
+  width: 75%;
+  margin: auto;
+}
+
+.navbar{
+  margin-bottom: 0;
+  border: none;
+  background-color: white;
+}
+.navbar-brand{
+  height: 80px;
+  line-height: 50px;
+}
+.navbar-brand img{
+  height: auto;
+  width: 180px;
+  display: inline-block;
+
+}
+.navbar li{
+  height: 80px;
+  line-height: 90px;
+}
+.navbar-nav > li > a{
+  height: 80px;
+  line-height: 60px;
+  padding: 15px 8px;
+}
+.navbar-nav i{
+  padding-left: 5px;
+}
+.btn-default {
+  color: #0269FF;
+  background-color: #fff;
+  border-color: #0269FF;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+  font-size: 25px;
+  color: grey;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  line-height: 46px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #0269FF;
+}
+.btn-default:hover {
+  color: white;
+  background-color: #0269FF;
+  transition: background-color 0.25s linear,border-color 0.25s linear,color 0.25s linear;
+  border-color: #0269FF;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
+/* @media only screen and (max-width : 992px) {
+  .navbar .navbar-collapse{
+    display: none;
+  } */
+  /* .navbar .navbar-toggle{
+    display: block;
+
+  } */
+
+}
+
+
+/* @media screen and (min-width: 768px){
+  .navbar .navbar-header{
+    float: none;
+  }
+  .navbar .navbar-toggle {
+    display: block;
+} */
+/* @media screen and (max-width: 991px) {
+  .navbar-header{
+    float: left;
+  }
+  .navbar-toggle{
+
+    float: right;
+  }
+} */
