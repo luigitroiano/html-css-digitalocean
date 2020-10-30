@@ -2,6 +2,42 @@
   width: 75%;
   margin: auto;
 }
+/* utility class */
+.txt_white{
+  color: white !important;
+}
+.txt_blue{
+  color: #056DFF;
+}
+.txt_lightgrey{
+  color: #BBC5F0 !important;
+}
+.txt_grey{
+  color: grey !important;
+}
+.fs_12{
+  font-size: 12px !important;
+}
+.fs_51{
+  font-size: 51px !important;
+}
+.fw_400{
+  font-weight: 400 !important;
+}
+.fw_700{
+  font-weight: 700 !important;
+}
+.mg_0{
+  margin: 0;
+}
+.pd_0{
+  padding: 0;
+}
+.pb_5{
+  padding-bottom: 5px;
+}
+/* /utility class */
+
 /* navbar */
 .navbar{
   margin-bottom: 0;
@@ -11,12 +47,13 @@
 .navbar-brand{
   height: 80px;
   line-height: 50px;
+  padding-left: 0;
 }
 .navbar-brand img{
   height: auto;
   width: 180px;
   display: inline-block;
-
+  vertical-align: middle;
 }
 .navbar li{
   height: 80px;
@@ -34,6 +71,7 @@
   color: #0269FF;
   background-color: #fff;
   border-color: #0269FF;
+  margin-right: 15px;
 }
 .navbar-default .navbar-toggle {
   border: none;
@@ -69,6 +107,8 @@
     }
     .navbar-toggle {
         display: block;
+        margin-right: 0;
+        padding-right: 0;
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -104,5 +144,48 @@
   background-image: url("../../img/bg-home-hero.svg");
   background-size: cover;
   background-position: center center;
+}
+.jumbotron .row{
+  padding: 160px 0 80px 0;
+}
+.jumbotron form{
+  background-color: white;
+}
+form{
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #579AFF;
+    border-color: #579AFF;
+}
+.btn-google{
+  text-transform: none;
+  padding: 10px 10px;
+  color: grey;
+  border-bottom: 0.2px solid lightgrey;
+  border-right: 0.2px solid lightgrey;
+  box-shadow: 1px 1px 6px lightgrey;
+}
+.btn-google img{
+  float: left;
+  height: 20px;
+}
+.btn-primary:hover{
+  color: #579AFF;
+  background-color: #fff;
+  border-color: #579AFF;
+}
+@media screen and (max-width: 1200px) {
+  .container_75{
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 845px) {
+  .jumbotron h1{
+    font-size: 45px !important;
+  }
 }
 /* /jumbotron */
