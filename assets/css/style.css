@@ -3,6 +3,9 @@
   margin: auto;
 }
 /* utility class */
+.bg_grey{
+  background-color: #F3F5F9;
+}
 .txt_white{
   color: white !important;
 }
@@ -17,6 +20,9 @@
 }
 .fs_12{
   font-size: 12px !important;
+}
+.fs_15{
+  font-size: 15px !important;
 }
 .fs_51{
   font-size: 51px !important;
@@ -33,11 +39,18 @@
 .pd_0{
   padding: 0;
 }
+.pd_30{
+  padding: 30px;
+}
+.pd_60{
+  padding: 60px;
+}
 .pb_5{
   padding-bottom: 5px;
 }
 /* /utility class */
 
+/* header */
 /* navbar */
 .navbar{
   margin-bottom: 0;
@@ -189,3 +202,41 @@ form{
   }
 }
 /* /jumbotron */
+/* /header */
+
+/* main */
+/* section customer */
+#customer img{
+  width: 49%;
+  height: 100%;
+}
+#customer [class*="col-sx"] > img {
+  padding: 10px 15px;
+}
+#customer [class*="col-sm"] {
+  padding: 0px 0px;
+  height: 120px;
+}
+/* /section customer */
+
+/* section process */
+/* /section process */
+
+/* section carosel_one */
+/* /section carosel_one */
+
+/* section service */
+/* /section service */
+
+/* section region */
+/* /section region */
+
+/* section carosel_two */
+/* /section carosel_two */
+
+/* section your_account */
+/* /section your_account */
+/* /main */
+
+/* footer */
+/* /footer */
