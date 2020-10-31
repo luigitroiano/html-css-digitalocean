@@ -19,6 +19,9 @@
 .txt_blue{
   color: #056DFF !important;
 }
+.txt_bright_blue{
+  color: #0269FF !important;
+}
 .txt_lightgrey{
   color: #BBC5F0 !important;
 }
@@ -256,9 +259,6 @@ form{
   color: #0269FF;
   text-decoration: none;
 }
-/* #process [class*="col-sx"] ul {
-  padding-left: 0;
-} */
 #process .col-xs-12 > ul{
   padding-left: 0;
 }
@@ -267,8 +267,12 @@ form{
     width: 100%;
     margin:auto: 0;
   }
-  #process img{
-    padding-top: 10px;
+  #process .pt_30{
+    padding-top: 0;
+  }
+  #process img,
+  #service img{
+    padding-top: 15px;
   }
 }
 /* /section process */
@@ -277,6 +281,10 @@ form{
 /* /section carosel_one */
 
 /* section service */
+#service a:hover{
+  color: #0f21a2 !important;
+  text-decoration: none;
+}
 /* /section service */
 
 /* section region */
