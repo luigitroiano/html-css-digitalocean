@@ -21,6 +21,9 @@
   background: rgb(0,66,187);
   background: linear-gradient(180deg, rgba(0,66,187,1) 0%, rgba(0,32,155,1) 100%);
 }
+.bg_dark_blue{
+  background-color: #031C4E;
+}
 .txt_white{
   color: white !important;
 }
@@ -335,4 +338,26 @@ form{
 /* /main */
 
 /* footer */
+#footer p{
+  color: #A1A9B9;
+}
+#footer .icon{
+  display: inline-block;
+  padding: 5px;
+}
+#footer a > .fab{
+  font-size: 20px;
+  color: #A1A9B9;
+}
+#footer img:first-child{
+  display: block;
+}
+#footer h4{
+  color: white;
+}
+#footer a{
+  color: lightgrey;
+  display: block;
+  color: #A1A9B9;
+}
 /* /footer */
