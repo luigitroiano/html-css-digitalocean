@@ -1,3 +1,7 @@
+.container_95{
+  width: 95%;
+  margin: auto;
+}
 .container_80{
   width: 80%;
   margin: auto;
@@ -9,6 +13,13 @@
 /* utility class */
 .bg_grey{
   background-color: #F3F5F9;
+}
+.bg_white{
+  background-color: white;
+}
+.bg_gradient_blue{
+  background: rgb(0,66,187);
+  background: linear-gradient(180deg, rgba(0,66,187,1) 0%, rgba(0,32,155,1) 100%);
 }
 .txt_white{
   color: white !important;
@@ -31,6 +42,9 @@
 .txt_blue_grey{
   color: #5C6A88 !important;
 }
+.txt_teal{
+  color: #00D5D1 !important;
+}
 .fs_12{
   font-size: 12px !important;
 }
@@ -46,6 +60,9 @@
 .fw_400{
   font-weight: 400 !important;
 }
+.fw_500{
+  font-weight: 500 !important;
+}
 .fw_700{
   font-weight: 700 !important;
 }
@@ -55,6 +72,7 @@
 .pd_0{
   padding: 0;
 }
+
 .pd_30{
   padding: 30px;
 }
@@ -66,6 +84,9 @@
 }
 .pb_10{
   padding-bottom: 10px;
+}
+.pt_15{
+  padding-top: 15px;
 }
 .pt_30{
   padding-top: 30px;
@@ -288,12 +309,28 @@ form{
 /* /section service */
 
 /* section region */
+#region .row_data{
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+#region :not(row_data):last-child{
+  border-bottom: none;
+}
+#region .col-xs-3{
+  text-align: right;
+}
 /* /section region */
 
 /* section carosel_two */
 /* /section carosel_two */
 
 /* section your_account */
+#your_account a:hover {
+  color: white !important;
+  background: rgb(0,66,187);
+  background: linear-gradient(180deg, rgba(0,66,187,1) 0%, rgba(0,32,155,1) 100%);
+  border: 2px solid white;
+}
 /* /section your_account */
 /* /main */
 
