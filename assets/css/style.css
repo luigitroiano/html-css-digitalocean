@@ -1,3 +1,7 @@
+.container_80{
+  width: 80%;
+  margin: auto;
+}
 .container_75{
   width: 75%;
   margin: auto;
@@ -9,8 +13,11 @@
 .txt_white{
   color: white !important;
 }
+.txt_darkblue{
+  color: #031C4E !important;
+}
 .txt_blue{
-  color: #056DFF;
+  color: #056DFF !important;
 }
 .txt_lightgrey{
   color: #BBC5F0 !important;
@@ -18,11 +25,17 @@
 .txt_grey{
   color: grey !important;
 }
+.txt_blue_grey{
+  color: #5C6A88 !important;
+}
 .fs_12{
   font-size: 12px !important;
 }
 .fs_15{
   font-size: 15px !important;
+}
+.fs_20{
+  font-size: 20px !important;
 }
 .fs_51{
   font-size: 51px !important;
@@ -43,10 +56,19 @@
   padding: 30px;
 }
 .pd_60{
-  padding: 60px;
+  padding: 60px 0;
 }
 .pb_5{
   padding-bottom: 5px;
+}
+.pb_10{
+  padding-bottom: 10px;
+}
+.pt_30{
+  padding-top: 30px;
+}
+.pt_50{
+  padding-top: 50px;
 }
 /* /utility class */
 
@@ -89,7 +111,7 @@
 .navbar-default .navbar-toggle {
   border: none;
   font-size: 25px;
-  color: grey;
+  color: #3B92FD;
 }
 .navbar-toggle {
   position: relative;
@@ -220,6 +242,35 @@ form{
 /* /section customer */
 
 /* section process */
+#process li{
+  list-style: none;
+  line-height: 2.5em;
+  border-left: 2px solid lightgrey;
+}
+#process a{
+  color: #5c6a88c2;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#process a:hover{
+  color: #0269FF;
+  text-decoration: none;
+}
+/* #process [class*="col-sx"] ul {
+  padding-left: 0;
+} */
+#process .col-xs-12 > ul{
+  padding-left: 0;
+}
+@media screen and (max-width:768px){
+  #process .container_80{
+    width: 100%;
+    margin:auto: 0;
+  }
+  #process img{
+    padding-top: 10px;
+  }
+}
 /* /section process */
 
 /* section carosel_one */
