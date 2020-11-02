@@ -329,6 +329,13 @@ form{
 #carosel_one img{
   width: 100%;
 }
+#carosel_two #img_rockerbox{
+  width: 70%;
+}
+#carosel_two .read_story > a:hover {
+  color: #1633ff !important;
+  text-decoration: none;
+}
 @media screen and (max-width:768px){
   #carosel_one a > .fa-chevron-left,
   #carosel_one a > .fa-chevron-right,
@@ -364,11 +371,14 @@ form{
 /* /section region */
 
 /* section your_account */
+#your_account a{
+  border: 2px solid transparent;
+}
 #your_account a:hover {
   color: white !important;
   background: rgb(0,66,187);
   background: linear-gradient(180deg, rgba(0,66,187,1) 0%, rgba(0,32,155,1) 100%);
-  border: 2px solid white;
+  border: 2px solid white !important;
 }
 /* /section your_account */
 /* /main */
@@ -410,6 +420,16 @@ form{
   float: right;
   margin-right: -125px;
   margin-top: -30px;
+}
+.bot span,
+.bot_small_screen span{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: normal;
+  background-color: red;
+  border: 2px solid white;
+  transform: translate(-50%, -50%);
 }
 .speech-bubble {
   position: relative;
@@ -469,7 +489,6 @@ form{
   display: inline-block;
   padding: 5px 7px 5px 7px;
 }
-
 .speech-bubble_small:after {
 	content: '';
 	position: absolute;
